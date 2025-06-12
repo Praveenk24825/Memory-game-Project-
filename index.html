@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memory Flipper Game</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="the-secret-logo-seal.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Qwigley&family=Roboto+Condensed&family=Volkhov&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="wholecontainer">
+    <div class="image">
+      <img src="the-secret-logo-seal.webp" alt="Logo">
+    </div>
+    <ul class="navbar">
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+      <li>Help</li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <h2>The Secret Memory Game</h2>
+    <p>The Secret memory game is played by people around the world … <br>Flip each card and find its pair until all tiles are matched. Take a moment to receive the powerful message of each tile.</p>
+  </div>
+
+  <div class="game-board" id="gameBoard"></div>
+
+  <div class="restart">
+    <button onclick="restartGame()">Restart</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
